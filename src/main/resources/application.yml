@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/johnDevALX/ums-env
+          uri: ${GIT_URI:https://github.com/johnDevALX/ums-env}
   application:
     name: ums-config-server
 server:
